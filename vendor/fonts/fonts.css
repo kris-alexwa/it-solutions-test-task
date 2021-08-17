@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    src: url('Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-style: normal;
+    src: url('Arimo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Arimo';
+    font-weight: 700;
+    font-style: normal;
+    src: url('Arimo-Bold.ttf');
+}
