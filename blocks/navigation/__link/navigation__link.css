@@ -1,0 +1,11 @@
+.navigation__link {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.navigation__link_active {
+  border-bottom: 4px solid hsl(77, 58%, 49%);
+}
