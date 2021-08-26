@@ -1,0 +1,16 @@
+.company__title {
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0;
+  max-width: 209px;
+}
+
+.company__title::before {
+  position: absolute;
+  content: "";
+  border-bottom: 3px solid #9CC634;
+  width: 50%;
+  height: 100%;
+}

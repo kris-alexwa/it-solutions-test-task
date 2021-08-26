@@ -1,0 +1,10 @@
+.info__title_intro {
+  text-transform: uppercase;
+  color: #F6F6F6;
+  font-size: 53px;
+  max-width: 212px;
+  position: absolute;
+  top: 45px;
+  left: auto;
+  z-index: -1;
+}

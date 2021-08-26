@@ -1,0 +1,7 @@
+.about__image {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  max-height: 517px;
+  z-index: -1;
+}

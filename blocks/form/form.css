@@ -1,0 +1,10 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 77px;
+  padding-left: 112px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  overflow: hidden;
+}

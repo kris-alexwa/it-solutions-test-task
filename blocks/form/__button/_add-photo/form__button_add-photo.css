@@ -1,0 +1,5 @@
+.form__button_add-photo {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  min-height: 29px;
+}

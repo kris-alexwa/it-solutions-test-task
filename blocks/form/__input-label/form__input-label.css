@@ -1,0 +1,8 @@
+.form__input-label {
+  position: absolute;
+  top: -5px;
+  left: 12px;
+  color:#0D2444;
+  background-color: white;
+  padding: 0 5px 0 5px;
+}

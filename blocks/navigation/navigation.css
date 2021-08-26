@@ -9,8 +9,9 @@
   top: 0;
   right: 0;
   border-radius: 0 0 0 270px;
-  height: 100px;
-  width: 886px;
+  height: 276px;
+  margin-top: -170px;
+  padding-left: 250px;
   padding-right: 28px;
   box-sizing: border-box;
 }

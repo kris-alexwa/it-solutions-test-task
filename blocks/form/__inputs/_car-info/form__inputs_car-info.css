@@ -1,0 +1,11 @@
+.form__inputs_car-info {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
+  max-width: 490px;
+  column-gap: 30px;
+  row-gap: 18px;
+  grid-column: 1;
+  grid-row: 1;
+  margin-bottom: 24px;
+}

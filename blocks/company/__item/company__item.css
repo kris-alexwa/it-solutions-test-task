@@ -1,0 +1,8 @@
+.company__item {
+  display: flex;
+  max-width: 402px;
+}
+
+.company__item:not(:last-of-type) {
+  margin-bottom: 23px;
+}

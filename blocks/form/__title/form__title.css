@@ -1,0 +1,15 @@
+.form__title {
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  width: fit-content;
+}
+
+.form__title_car-info {
+  margin-bottom: 41px;
+}
+
+.form__title_other-info {
+  margin-bottom: 19px;
+}

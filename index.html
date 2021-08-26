@@ -12,13 +12,13 @@
 <body class="body">
   <div class="page">
     <header class="header">
-      <div class='contacts'>
+      <div class='contacts header__contacts'>
         <div class="contacts__container">
-          <div class="contacts__wrapper">
+          <div class="contacts__wrapper contacts__wrapper_header">
             <img class="contacts__icon" src='./images/icons/phone-icon.png' alt='Иконка телефона'>
             <p class="contacts__data">&#43;372 43675 476</p>
           </div>
-          <div class="contacts__wrapper">
+          <div class="contacts__wrapper contacts__wrapper_header">
             <img class="contacts__icon" src='./images/icons/email-icon.png' alt='Иконка email'>
             <p class="contacts__data">info@example.ee</p>
           </div>
@@ -26,18 +26,18 @@
       </div>
 
       <nav class="navigation">
-          <ul class="navigation__social-list">
-            <li class='navigation__social-item'>
-              <a href="#" class="navigation__link link">
-                <img class="navigation__social-icon" src="./images/icons/facebook-icon.png" alt="Иконка Facebook">
-              </a>
-            </li>
-            <li class='navigation__social-item'>
-              <a href="#" class="navigation__link link">
-                <img class="navigation__social-icon hover" src="./images/icons/vk-icon.png" alt="Иконка Vk">
-              </a>
-            </li>
-          </ul>
+        <ul class="navigation__social-list">
+          <li class='navigation__social-item'>
+            <a href="#" class="navigation__link link">
+              <img class="navigation__social-icon" src="./images/icons/facebook-icon.png" alt="Иконка Facebook">
+            </a>
+          </li>
+          <li class='navigation__social-item'>
+            <a href="#" class="navigation__link link">
+              <img class="navigation__social-icon hover" src="./images/icons/vk-icon.png" alt="Иконка Vk">
+            </a>
+          </li>
+        </ul>
         <ul class="navigation__menu-list">
           <li class="navigation__menu-item link">
             <a href="#" class="navigation__link navigation__link_active">главная</a>
@@ -57,10 +57,260 @@
           <li class="navigation__menu-item link">
             <a href="#" class="navigation__link">контакты</a>
           </li>
-          <li class="navigation__menu-item link"><img class="navigation__icon" src='./images/icons/rus-flag-icon.png'></li>
+          <li class="navigation__menu-item link"><img class="navigation__icon" src='./images/icons/rus-flag-icon.png'>
+          </li>
         </ul>
       </nav>
     </header>
+
+    <main class="main">
+
+      <form class="form">
+        <img class="form__image" src="./images/background-image-form.jpg" alt='Картинка блока формы'>
+        <div class="form__container form__container_car-info">
+
+          <h2 class="form__title form__title_car-info">Данные автомобиля</h2>
+          <div class="form__inputs form__inputs_car-info">
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='vendor' class="form__input-label">Марка</label>
+              <input id='vendor' class="form__input form__input_car-info">
+            </div>
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='model' class="form__input-label">Модель</label>
+              <input id='model' class="form__input form__input_car-info">
+            </div>
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='motor' class="form__input-label">Мотор</label>
+              <input id='motor' class="form__input form__input_car-info">
+            </div>
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='year' class="form__input-label">Год</label>
+              <input id='year' class="form__input form__input_car-info">
+            </div>
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='fuel' class="form__input-label">Топливо</label>
+              <input id='fuel' class="form__input form__input_car-info">
+            </div>
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='transmission' class="form__input-label">КПП</label>
+              <input id='transmission' class="form__input form__input_car-info">
+            </div>
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='mileage' class="form__input-label">Пробег</label>
+              <input id='mileage' class="form__input form__input_car-info">
+            </div>
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='inspection' class="form__input-label">Техосмотр</label>
+              <input id='inspection' class="form__input form__input_car-info">
+            </div>
+            <div class="form__wrapper form__wrapper_car-info">
+              <label for='price' class="form__input-label">Желаемая цена</label>
+              <input id='price' class="form__input form__input_car-info">
+            </div>
+            <button class="form__button form__button_add-photo button">Добавить фото</button>
+          </div>
+        </div>
+
+        <div class="form__container form__container_other-info">
+          <h2 class="form__title form__title_other-info">Другие данные</h2>
+          <div class="form__inputs form__inputs_other-info">
+            <div class="form__wrapper">
+              <label for='name' class="form__input-label">Имя</label>
+              <input id='name' class="form__input form__input_other-info">
+            </div>
+            <div class="form__wrapper">
+              <label for='email' class="form__input-label">Почта</label>
+              <input id='email' class="form__input form__input_other-info">
+            </div>
+            <div class="form__wrapper form__wrapper_number">
+              <label for='number' class="form__input-label">Номер телефона</label>
+              <input id='number' class="form__input form__input_other-info">
+            </div>
+            <div class="form__wrapper form__wrapper_city">
+              <label for='city' class="form__input-label">Город</label>
+              <input id='city' class="form__input form__input_other-info">
+            </div>
+            <div class="form__wrapper text__wrapper_textarea">
+              <label for='message' class="form__input-label">Сообщение</label>
+              <textarea id='message' class="form__textarea"></textarea>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox__input" type='checkbox'>
+            <p class="checkbox__confirm">Я согласен(на), что фирма использует мои личные данные на основе
+              <span class="checkbox__accent">Политики конфедициальности</span>
+            </p>
+          </div>
+          <button class="form__button form__button_submit button">Отправить</button>
+        </div>
+      </form>
+
+      <section class="info">
+        <img class="info__image" src="./images/background-image-info.jpg" alt='Картинка блока об информации'>
+        <div class="info__container">
+          <div class="info__intro">
+            <img class="info__icon info__icon_intro" src="./images/icons/car-euro-icon.png" alt='Иконка евро'>
+            <h3 class="info__title info__title_intro">carbuy</h3>
+            <p class="info__paragraph info__paragraph_intro">Желаешь продать машину быстро, но не хочешь заниматься этим
+              самостоятельно? Доверь нам все проблемы, связанные с продажей машины!</p>
+          </div>
+
+          <div class="info__cards">
+            <div class="info__card info__card_time">
+              <img class="info__icon info__icon_card" src="./images/icons/clock-icon.png" alt='Иконка часы'>
+              <h3 class="info__title info__title_card">Быстро</h3>
+              <p class="info__paragraph info__paragraph_card">Наша цель помочь вам продать машину как можно быстрее,
+                оформив
+                все необходимые докуметы в ускоренном порядке, и мы сделаем для этого всё от себя зависящее.</p>
+            </div>
+            <div class="info__card info__card_easy">
+              <img class="info__icon info__icon_card" src="./images/icons/check-mark-icon.png" alt='Иконка галочки'>
+              <h3 class="info__title info__title_card">Просто</h3>
+              <p class="info__paragraph info__paragraph_card">Мы купим вашу машину при любом условии!Не важно есть ли на
+                ней
+                техосмотр, нуждается ли она в ремонте или имеет неисправности; Мы приобритём вашу машину без лишних
+                задержек
+                и вопросов.</p>
+            </div>
+            <div class="info__card info__card_profit">
+              <img class="info__icon info__icon_card" src="./images/icons/euro-icon.png" alt='Иконка евро'>
+              <h3 class="info__title info__title_card">Прибыльно</h3>
+              <p class="info__paragraph info__paragraph_card">Разумеется вы хотели бы продать свою машину с максимальной
+                выгодой. Мы способны предложить вам за ваш автомобиль самую высокую цену на рынке.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about__container">
+          <h2 class="about__title">о нас</h2>
+          <p class="about__intro">Мы действуем на рынке автомобилей уже много лет и знаем как оформить сделку быстро и
+            без проблем.</p>
+          <p class="about__paragraph">Первое, что следует сделать заинтересованному в продаже машины человеку –
+            связаться с нами, заполнив контактную форму на сайте или позвонив по телефону. На основании полученного со
+            слов описания машины мы назовем предварительную стоимость. Точное ценовое предложение станет известно после
+            проведения оценки, которую выполнит наш специалист, выехав для этого в удобное для клиента место.</p>
+          <ul class="about__list">
+            <li class="about__item">
+              <img class="about__icon" src='./images/icons/crown-icon.png' alt='Иконка короны'>
+              <p class="about__item-text">Предлагаем самые высокие цены</p>
+            </li>
+            <li class="about__item">
+              <img class="about__icon" src='./images/icons/note-icon.png' alt='Иконка тетради'>
+              <p class="about__item-text">Оформляем документы прямо на месте</p>
+            </li>
+            <li class="about__item">
+              <img class="about__icon" src='./images/icons/like-icon.png' alt='Иконка палец вверх'>
+              <p class="about__item-text">Выкупаем машины в любом состоянии</p>
+            </li>
+          </ul>
+        </div>
+        <img class="about__image" src="./images/background-image-about.jpg" alt='Картинка блока о нас'>
+      </section>
+
+      <section class="company">
+        <div class="company__wrapper">
+          <div class="company__container">
+            <h2 class="company__title">company name</h2>
+            <p class="company__paragraph">Каждый автовладелец хотя бы раз сталкивался с необходимостью продать машину.
+              Конечно же, вы хотите селать это быстрее и с максимальной выгодой. Наши специалисты возьмут на себя все
+              проблемы! Нам можно полностью доверять.&shy;
+              Мы не являемся кредитной организацией или ломбардом. Мы покупаем ваши машины, в любом виде и состоянии.
+              Да,
+              так просто!&shy;
+              Наша цель - купить вашу машину максимально быстро, просто и выгодно для вас.</p>
+            <ul class="company__cards-list">
+              <li class="company__card">
+                <img class="company__card-icon" src='./images/icons/clock-icon.png' alt='Иконка часов'>
+                <h3 class="company__card-title">Быстро</h3>
+              </li>
+              <li class="company__card">
+                <img class="company__card-icon" src='./images/icons/medal-icon.png' alt='Иконка медали'>
+                <h3 class="company__card-title">Качественно</h3>
+              </li>
+              <li class="company__card">
+                <img class="company__card-icon" src='./images/icons/handshake-icon.png' alt='Иконка рукопожатие'>
+                <h3 class="company__card-title">Надежно</h3>
+              </li>
+            </ul>
+          </div>
+
+
+          <ul class="company__list">
+            <li class="company__item">
+              <img class="company__icon" src='./images/icons/check-mark-ellipse-icon.png' alt='Иконка галочки'>
+              <p class="company__item-text">Машину не надо подготавливать к продаже</p>
+            </li>
+            <li class="company__item">
+              <img class="company__icon" src='./images/icons/check-mark-ellipse-icon.png' alt='Иконка галочки'>
+              <p class="company__item-text">Покупаем машины любого года выпуска и в любом состоянии</p>
+            </li>
+            <li class="company__item">
+              <img class="company__icon" src='./images/icons/check-mark-ellipse-icon.png' alt='Иконка галочки'>
+              <p class="company__item-text">Покупаем машины без техосмотра и страховки</p>
+            </li>
+            <li class="company__item">
+              <img class="company__icon" src='./images/icons/check-mark-ellipse-icon.png' alt='Иконка галочки'>
+              <p class="company__item-text">Покупаем машины не работающие и нуждающиеся в ремонте</p>
+            </li>
+            <li class="company__item">
+              <img class="company__icon" src='./images/icons/check-mark-ellipse-icon.png' alt='Иконка галочки'>
+              <p class="company__item-text">Предложим за вашу машину больше остальных</p>
+            </li>
+            <li class="company__item">
+              <img class="company__icon" src='./images/icons/check-mark-ellipse-icon.png' alt='Иконка галочки'>
+              <p class="company__item-text">Сразу же выплачиваем деньги</p>
+            </li>
+            <li class="company__item">
+              <img class="company__icon" src='./images/icons/check-mark-ellipse-icon.png' alt='Иконка галочки'>
+              <p class="company__item-text">Работаем по всей Эстонии и сами выезжаем на место</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <h2 class="footer__logo">logo</h2>
+
+        <div class="footer__location location">
+          <h3 class="footer__item-title">Company name</h3>
+          <p class="location__info">Reg. nr&#58; 437568</p>
+          <p class="location__info">Peterburi tee 710 Tallinn Harjumaa 34235</p>
+        </div>
+
+        <div class="contacts footer__contacts">
+          <h3 class="contacts__title footer__item-title">Свяжитесь с нами</h3>
+          <div class="contacts__container">
+            <div class="contacts__wrapper contacts__wrapper_footer">
+              <img class="contacts__icon" src='./images/icons/green-phone-icon.png' alt='Иконка телефона'>
+              <p class="contacts__data">&#43;372 43675 476</p>
+            </div>
+            <div class="contacts__wrapper contacts__wrapper_footer">
+              <img class="contacts__icon" src='./images/icons/green-email-icon.png' alt='Иконка email'>
+              <p class="contacts__data">info@example.ee</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__links links">
+          <h3 class="footer__item-title">Полезные ссылки</h3>
+          <ul class="links__list">
+            <li class="links__item link">
+              <a href="#" class="links__link">О нас</a>
+            </li>
+            <li class="links__item link">
+              <a href="#" class="links__link">Часто задаваемые вопросы</a>
+            </li>
+            <li class="links__item link">
+              <a href="#" class="links__link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
   <script src="./script/script.js"></script>
 </body>

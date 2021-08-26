@@ -1,0 +1,10 @@
+.form__inputs_other-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, auto);
+  grid-column: 1;
+  grid-row: 2;
+  column-gap: 33px;
+  row-gap: 17px;
+  max-width: 385px;
+}
