@@ -20,6 +20,7 @@
 @import url(../blocks/navigation/__menu-list/navigation__menu-list.css);
 @import url(../blocks/navigation/__menu-item/navigation__menu-item.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/forms/forms.css);
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__image/form__image.css);
 @import url(../blocks/form/__container/form__container.css);
@@ -43,15 +44,15 @@
 @import url(../blocks/form/__inputs/_car-info/form__inputs_car-info.css);
 @import url(../blocks/form/__inputs/_other-info/form__inputs_other-info.css);
 @import url(../blocks/form/__textarea/form__textarea.css);
+@import url(../blocks/form/__required-icon/form__required-icon.css);
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/__confirm/checkbox__confirm.css);
 @import url(../blocks/checkbox/__input/checkbox__input.css);
-@import url(../blocks/checkbox/__accent/checkbox__accent.css);
+@import url(../blocks/checkbox/__link/checkbox__link.css);
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__image/info__image..css);
 @import url(../blocks/info/__container/info__container.css);
 @import url(../blocks/info/__intro/info__intro.css);
-@import url(../blocks/info/__intro-title/info__intro-title.css);
 @import url(../blocks/info/__paragraph/_intro/info__paragraph_intro.css);
 @import url(../blocks/info/__icon/_intro/info__icon_intro.css);
 @import url(../blocks/info/__title/info__title.css);
@@ -92,8 +93,6 @@
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__location/footer__location.css);
-@import url(../blocks/location/location.css);
-@import url(../blocks/location/__title/location__title.css);
 @import url(../blocks/location/__info/location__info.css);
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__title/links__title.css);

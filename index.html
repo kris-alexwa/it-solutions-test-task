@@ -12,6 +12,7 @@
 <body class="body">
   <div class="page">
     <header class="header">
+
       <div class='contacts header__contacts'>
         <div class="contacts__container">
           <div class="contacts__wrapper contacts__wrapper_header">
@@ -64,86 +65,88 @@
     </header>
 
     <main class="main">
-
-      <form class="form">
-        <img class="form__image" src="./images/background-image-form.jpg" alt='Картинка блока формы'>
-        <div class="form__container form__container_car-info">
-
-          <h2 class="form__title form__title_car-info">Данные автомобиля</h2>
-          <div class="form__inputs form__inputs_car-info">
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='vendor' class="form__input-label">Марка</label>
-              <input id='vendor' class="form__input form__input_car-info">
-            </div>
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='model' class="form__input-label">Модель</label>
-              <input id='model' class="form__input form__input_car-info">
-            </div>
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='motor' class="form__input-label">Мотор</label>
-              <input id='motor' class="form__input form__input_car-info">
-            </div>
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='year' class="form__input-label">Год</label>
-              <input id='year' class="form__input form__input_car-info">
-            </div>
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='fuel' class="form__input-label">Топливо</label>
-              <input id='fuel' class="form__input form__input_car-info">
-            </div>
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='transmission' class="form__input-label">КПП</label>
-              <input id='transmission' class="form__input form__input_car-info">
-            </div>
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='mileage' class="form__input-label">Пробег</label>
-              <input id='mileage' class="form__input form__input_car-info">
-            </div>
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='inspection' class="form__input-label">Техосмотр</label>
-              <input id='inspection' class="form__input form__input_car-info">
-            </div>
-            <div class="form__wrapper form__wrapper_car-info">
-              <label for='price' class="form__input-label">Желаемая цена</label>
-              <input id='price' class="form__input form__input_car-info">
-            </div>
-            <button class="form__button form__button_add-photo button">Добавить фото</button>
-          </div>
-        </div>
-
-        <div class="form__container form__container_other-info">
-          <h2 class="form__title form__title_other-info">Другие данные</h2>
-          <div class="form__inputs form__inputs_other-info">
-            <div class="form__wrapper">
-              <label for='name' class="form__input-label">Имя</label>
-              <input id='name' class="form__input form__input_other-info">
-            </div>
-            <div class="form__wrapper">
-              <label for='email' class="form__input-label">Почта</label>
-              <input id='email' class="form__input form__input_other-info">
-            </div>
-            <div class="form__wrapper form__wrapper_number">
-              <label for='number' class="form__input-label">Номер телефона</label>
-              <input id='number' class="form__input form__input_other-info">
-            </div>
-            <div class="form__wrapper form__wrapper_city">
-              <label for='city' class="form__input-label">Город</label>
-              <input id='city' class="form__input form__input_other-info">
-            </div>
-            <div class="form__wrapper text__wrapper_textarea">
-              <label for='message' class="form__input-label">Сообщение</label>
-              <textarea id='message' class="form__textarea"></textarea>
+      <section class="forms">
+        <form class="form">
+          <img class="form__image" src="./images/background-image-form.jpg" alt='Картинка блока формы'>
+          <div class="form__container form__container_car-info">
+            <h2 class="form__title form__title_car-info">Данные автомобиля</h2>
+            <div class="form__inputs form__inputs_car-info">
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='vendor' class="form__input-label">Марка</label>
+                <input id='vendor' class="form__input form__input_car-info">
+              </div>
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='model' class="form__input-label">Модель</label>
+                <input id='model' class="form__input form__input_car-info">
+              </div>
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='motor' class="form__input-label">Мотор</label>
+                <input id='motor' class="form__input form__input_car-info">
+              </div>
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='year' class="form__input-label">Год</label>
+                <input id='year' class="form__input form__input_car-info">
+              </div>
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='fuel' class="form__input-label">Топливо</label>
+                <input id='fuel' class="form__input form__input_car-info">
+              </div>
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='transmission' class="form__input-label">КПП</label>
+                <input id='transmission' class="form__input form__input_car-info">
+              </div>
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='mileage' class="form__input-label">Пробег</label>
+                <input id='mileage' class="form__input form__input_car-info">
+              </div>
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='inspection' class="form__input-label">Техосмотр</label>
+                <input id='inspection' class="form__input form__input_car-info">
+              </div>
+              <div class="form__wrapper form__wrapper_car-info">
+                <label for='price' class="form__input-label">Желаемая цена <img class='form__required-icon'
+                    src='./images/icons/ellipse-icon.svg'></label>
+                <input id='price' class="form__input form__input_car-info">
+              </div>
+              <button class="form__button form__button_add-photo button">Добавить фото</button>
             </div>
           </div>
-          <div class="checkbox">
-            <input class="checkbox__input" type='checkbox'>
-            <p class="checkbox__confirm">Я согласен(на), что фирма использует мои личные данные на основе
-              <span class="checkbox__accent">Политики конфедициальности</span>
-            </p>
+
+          <div class="form__container form__container_other-info">
+            <h2 class="form__title form__title_other-info">Другие данные</h2>
+            <div class="form__inputs form__inputs_other-info">
+              <div class="form__wrapper">
+                <label for='name' class="form__input-label">Имя</label>
+                <input id='name' class="form__input form__input_other-info">
+              </div>
+              <div class="form__wrapper">
+                <label for='email' class="form__input-label">Почта</label>
+                <input id='email' class="form__input form__input_other-info">
+              </div>
+              <div class="form__wrapper form__wrapper_number">
+                <label for='number' class="form__input-label">Телефон <img class='form__required-icon'
+                    src='./images/icons/ellipse-icon.svg'></label>
+                <input id='number' class="form__input form__input_other-info">
+              </div>
+              <div class="form__wrapper form__wrapper_city">
+                <label for='city' class="form__input-label">Город</label>
+                <input id='city' class="form__input form__input_other-info">
+              </div>
+              <div class="form__wrapper text__wrapper_textarea">
+                <label for='message' class="form__input-label">Сообщение</label>
+                <textarea id='message' class="form__textarea"></textarea>
+              </div>
+            </div>
+            <div class="checkbox">
+              <input class="checkbox__input" type='checkbox'>
+              <p class="checkbox__confirm">Я согласен(на), что фирма использует мои личные данные на основе
+                <a href="#" class="checkbox__link">Политики конфедициальности</a>
+              </p>
+            </div>
+            <button class="form__button form__button_submit button">Отправить</button>
           </div>
-          <button class="form__button form__button_submit button">Отправить</button>
-        </div>
-      </form>
+        </form>
+      </section>
 
       <section class="info">
         <img class="info__image" src="./images/background-image-info.jpg" alt='Картинка блока об информации'>
