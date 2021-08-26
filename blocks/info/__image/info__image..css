@@ -1,7 +1,7 @@
 .info__image {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -100px;
   z-index: -1;
   max-height: 438px;
 }
